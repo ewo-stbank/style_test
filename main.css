@@ -70,7 +70,7 @@
 
 
 @media (min-width: 1160px) {
-    .button-module .frame__cell:has(.btn.btn--primary.btn--brand-2.btn--invert),.button-module .frame__cell-item:has(.btn.btn--primary.btn--brand-2.btn--invert) {
+   .button-module .frame__cell-item:has(.btn.btn--primary.btn--brand-2.btn--invert) {
         max-width: 100%;
         margin-left: 0;
         padding:0px;
@@ -78,6 +78,13 @@
         margin-left: auto;
         margin-right: auto;
     }
+     .button-module .frame__cell-item:has(.btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(8)){
+        .btn.btn--primary.btn--brand-2.btn--invert{
+            max-width: 22%;
+        }
+        max-width: 1520px;
+    }
+    
 }
 
 @media (min-width: 1024px){
@@ -85,6 +92,7 @@
         .btn.btn--primary.btn--brand-2.btn--invert{
             max-width: 24%;
         }
+         
     }
 }
 
