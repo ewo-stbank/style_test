@@ -42,7 +42,7 @@
             color: var(--button_text);
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(1):after {
-            -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/svg/loan_house.svg") no-repeat center / contain;
+            -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/loan_house.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(2):after {
             -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/svg/insurance_umbrella.svg") no-repeat center / contain;
