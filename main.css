@@ -62,15 +62,24 @@
 
 
 /* 
-Lån         https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/loan_house.svg
-Forsikring  https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/insurance_umbrella.svg
-Sparing     https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/graph_up.svg
-Bruke       https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/payment_card.svg
-Kontakt     https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_talk.svg
-Megler      https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/realestate_key.svg
-Erklæring   https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_kyc.svg
-Samtykke    https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_approve.svg
-Bli kunde   https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/new_customer.svg
+Lån         
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg
+Forsikring  
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/insurance_umbrella.svg
+Sparing     
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/graph_up.svg
+Bruke       
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/payment_card.svg
+Kontakt     
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_talk.svg
+Megler      
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/realestate_key.svg
+Erklæring   
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_kyc.svg
+Samtykke    
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_approve.svg
+Bli kunde   
+https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer.svg
 */
 
 /*Legg inn link til svg for knapp nr 1  */ 
@@ -84,64 +93,68 @@ Bli kunde   https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/n
 
 /*Legg inn link til svg for knapp nr 2  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(2):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/insurance_umbrella_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(2):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/insurance_umbrella.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 3 */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(3):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/graph_up_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(3):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/graph_up.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 4  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(4):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_talk_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(4):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_talk.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 5  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(5):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/realestate_key_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(5):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/realestate_key.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 6  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(6):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_kyc_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(6):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_kyc.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 7  KUN HVIS DU HAR 8 KNAPPER*/ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(7):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_approve_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(7):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_approve.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 8  KUN HVIS DU HAR 8 KNAPPER*/ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(8):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(8):after {
+<<<<<<< HEAD
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer.svg") no-repeat center / contain;
+=======
     -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain; 
+>>>>>>> 67fa5934aa90cd0fc976e9b510a0f845452d2557
 }
 
 
