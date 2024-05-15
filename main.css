@@ -6,8 +6,11 @@
     --button_join_text: #2D2D2D;
     --button_join_color: #F6921E;
 
-    --svg-background-color:#f6911e3d;
-    --svg-stroke-color: #F6921E;
+    --svg_fill:#f6911e3d;
+    --svg_stroke: #F6921E;
+    --svg_join_stroke:#2d2d2d;
+    --svg_join_fill:#ffffff;
+
 
     --button_radius: 8px;
     --button_shadow: 0px 0px 10px #00000024;
@@ -50,10 +53,10 @@
 
 
 .btn.btn--primary.btn--brand-2.btn--invert::before {
-    background-color: var(--svg-background-color);
+    background-color: var(--svg_fill);
 }
 .btn.btn--primary.btn--brand-2.btn--invert::after {
-    background-color: var(--svg-stroke-color);
+    background-color: var(--svg_stroke);
 }
 
 
@@ -138,7 +141,7 @@ Bli kunde   https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/n
     -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(8):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain; 
 }
 
 
@@ -148,8 +151,12 @@ Bli kunde   https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/n
 }
 
 .btn.btn--primary.btn--brand-2.btn--invert:last-of-type:after {
-            background-color: currentColor;
-            color: var(--button_join_text);
+    background-color: currentColor;
+    color: var(--svg_join_stroke);
+}
+.btn.btn--primary.btn--brand-2.btn--invert:last-of-type:before {
+    background-color: currentColor;
+    color: var(--svg_join_fill);
 }
 
 
