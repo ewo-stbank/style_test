@@ -150,11 +150,7 @@ https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer.svg
     -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(8):after {
-<<<<<<< HEAD
     -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer.svg") no-repeat center / contain;
-=======
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain; 
->>>>>>> 67fa5934aa90cd0fc976e9b510a0f845452d2557
 }
 
 
