@@ -52,24 +52,49 @@ Erklæring   https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/
 Samtykke    https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_approve.svg
 Bli kunde   https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/new_customer.svg
 */
+
+/*Legg inn link til svg for knapp nr 1  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(1):after {
             -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/loan_house.svg") no-repeat center / contain;
 }
+
+/*Legg inn link til svg for knapp nr 2  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(2):after {
             -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/insurance_umbrella.svg") no-repeat center / contain;
 }
+
+/*Legg inn link til svg for knapp nr 3 */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(3):after {
             -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/graph_up.svg") no-repeat center / contain;
 }
+
+/*Legg inn link til svg for knapp nr 4  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(4):after {
             -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_kyc.svg") no-repeat center / contain;
 }
+
+/*Legg inn link til svg for knapp nr 5  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(5):after {
             -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_approve.svg") no-repeat center / contain;
 }
-.btn.btn--primary.btn--brand-2.btn--invert:last-of-type:after {
-            -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/new_customer.svg") no-repeat center / contain;
+
+/*Legg inn link til svg for knapp nr 6  */ 
+.btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(6):after {
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_approve.svg") no-repeat center / contain;
 }
+
+/*Legg inn link til svg for knapp nr 7  KUN HVIS DU HAR 8 KNAPPER*/ 
+.btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(7):after {
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_approve.svg") no-repeat center / contain;
+}
+
+/*Legg inn link til svg for knapp nr 8  KUN HVIS DU HAR 8 KNAPPER*/ 
+.btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(8):after {
+    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/icons/buttons/bubble_approve.svg") no-repeat center / contain;
+}
+
+
+
 .btn.btn--primary.btn--brand-2.btn--invert:last-of-type {
     background-color: var(--button_join_color);
     color: var(--button_join_text);
