@@ -1,16 +1,30 @@
 :root {
-    --button_text:#2D2D2D;
+    --button_text:#33657E;
     --button_color: #ffffff;
-    --button_border: #F6921E;
+    --button_border: #33657E;
     
-    --button_join_text: #2D2D2D;
-    --button_join_color: #F6921E;
+    --button_join_text: ##002a3a;
+    --button_join_color: #ffda00;
+    --button_join_border: #ffda00;
 
-    --svg_fill:#f6911e3d;
-    --svg_stroke: #F6921E;
-    --svg_join_stroke:#2d2d2d;
-    --svg_join_fill:#ffffff;
+    --svg_fill:#ffda0047;
+    --svg_stroke: #33657E;
+    --svg_join_stroke:##33657E;
+    --svg_join_fill:#ffda00;
 
+
+    --button_hover_join_text: #002a3a;
+    --button_hover_join_color: #ffda0047;
+    --button_hover_join_border: #ffda00;
+    --button_hover_text:#002a3a;
+    --button_hover_color: #ffda0047;
+    --button_hover_border: #ffda00;
+    --button_hover_shadow:0px 0px 10px #00000024;
+    --button_hover_radius: 8px;
+    --button_hover_svg_fill: #ffffff;
+    --button_hover_svg_stroke: #ffda00;
+    --button_hover_svg_join_stroke:#ffffff;
+    --button_hover_svg_join_fill:#ffda00;
 
     --button_radius: 8px;
     --button_shadow: 0px 0px 10px #00000024;
@@ -30,6 +44,17 @@
     border-color: var(--button_border);
     border-width:2px;
 }
+
+
+.btn.btn--primary.btn--brand-2.btn--invert:hover{
+    color: var(--button_hover_text);
+    background-color: var(--button_hover_color);
+    border-radius: var(--button_hover_radius);
+    box-shadow: var(--button_hover_shadow);
+    border-color: var(--button_hover_border);
+  
+}
+
 
 .button-module .frame__cell-item:has(.btn.btn--primary.btn--brand-2.btn--invert) {
     display: flex;
@@ -57,6 +82,14 @@
 }
 .btn.btn--primary.btn--brand-2.btn--invert::after {
     background-color: var(--svg_stroke);
+}
+
+
+.btn.btn--primary.btn--brand-2.btn--invert:hover:before {
+    background-color: var(--button_hover_svg_fill);
+}
+.btn.btn--primary.btn--brand-2.btn--invert:hover:after {
+    background-color: var(--button_hover_svg_stroke);
 }
 
 
@@ -157,6 +190,7 @@ https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer.svg
 .btn.btn--primary.btn--brand-2.btn--invert:last-of-type {
     background-color: var(--button_join_color);
     color: var(--button_join_text);
+    border-color: var(--button_join_border);
 }
 
 .btn.btn--primary.btn--brand-2.btn--invert:last-of-type:after {
@@ -166,6 +200,22 @@ https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer.svg
 .btn.btn--primary.btn--brand-2.btn--invert:last-of-type:before {
     background-color: currentColor;
     color: var(--svg_join_fill);
+}
+
+
+.btn.btn--primary.btn--brand-2.btn--invert:last-of-type:hover {
+    background-color: var(--button_hover_join_color);
+    color: var(--button_hover_join_text);
+    border-color: var(--button_hover_join_border);
+}
+
+.btn.btn--primary.btn--brand-2.btn--invert:last-of-type:hover:after {
+    background-color: currentColor;
+    color: var(--button_hover_svg_join_stroke);
+}
+.btn.btn--primary.btn--brand-2.btn--invert:last-of-type:hover:before {
+    background-color: currentColor;
+    color: var(--button_hover_svg_join_fill);
 }
 
 
