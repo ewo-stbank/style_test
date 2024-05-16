@@ -117,73 +117,73 @@ https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer.svg
 
 /*Legg inn link til svg for knapp nr 1  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(1):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/loan_house_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(1):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/loan_house.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/loan_house.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 2  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(2):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/insurance_umbrella_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/insurance_umbrella_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(2):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/insurance_umbrella.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/insurance_umbrella.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 3 */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(3):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/graph_up_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/graph_up_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(3):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/graph_up.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/graph_up.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 4  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(4):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_talk_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/payment_card_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(4):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_talk.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/payment_card.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 5  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(5):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/realestate_key_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/realestate_key_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(5):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/realestate_key.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/realestate_key.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 6  */ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(6):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_kyc_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/bubble_kyc_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(6):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_kyc.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/bubble_kyc.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 7  KUN HVIS DU HAR 8 KNAPPER*/ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(7):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_approve_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/bubble_approve_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(7):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/bubble_approve.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/bubble_approve.svg") no-repeat center / contain;
 }
 
 
 /*Legg inn link til svg for knapp nr 8  KUN HVIS DU HAR 8 KNAPPER*/ 
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(8):before {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer_background.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/new_customer_background.svg") no-repeat center / contain;
 }
 .btn.btn--primary.btn--brand-2.btn--invert:nth-of-type(8):after {
-    -webkit-mask: url("https://www.testsite.lokalbank.no/-/media/lbamalbank/svg/new_customer.svg") no-repeat center / contain;
+    -webkit-mask: url("https://www.stbank.no/-/media/stadsbygdsparebank/svg/new_customer.svg") no-repeat center / contain;
 }
 
 
